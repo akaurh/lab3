@@ -1,5 +1,7 @@
 import static org.junit.Assert.*;
 import org.junit.*;
+import java.util.ArrayList;
+
 
 public class ArrayTests {
 	@Test 
@@ -24,4 +26,12 @@ public class ArrayTests {
     assertArrayEquals(new int[]{4,3}, input1); 
 
   }
+
+  @Test
+  public void testAvgLowest()
+  {
+    double[] input1 = { 2,1,4 };
+    assertEquals(3, ArrayExamples.averageWithoutLowest(input1), 0.1); 
+  }
+
 }

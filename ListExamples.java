@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
+//new class myChecker implements StringChecker, check for any character in string 
 
 class ListExamples {
 
